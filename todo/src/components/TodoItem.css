@@ -1,0 +1,25 @@
+.item-container{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    box-sizing: content-box;
+    font-size: 1.8rem;
+    font-weight: lighter;
+    margin: 0 auto;
+}
+
+.item-container::after{
+    content: "";
+    display: block;
+    width: 10%;
+    padding-top: 4px;
+    margin: 40px auto;
+    border-bottom: 1px solid black;
+}
+
+.todo-item{
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    text-transform: capitalize;
+}
